@@ -11,7 +11,7 @@ if ($content) {
         array($content->getLocalName(), $content->getLocalBody()));
 } else {
     $title = __('Sign In');
-    $body = __('To better serve you, we encourage our clients to register for an account and verify the email address we have on record.');
+    $body = __('o better serve you, we encourage our clients to register for an account and verify the email address we have on record.');
 }
 
 ?>
@@ -66,7 +66,7 @@ if ($cfg && $cfg->isClientRegistrationEnabled()) {
 <?php
 if ($cfg->getClientRegistrationMode() != 'disabled'
     || !$cfg->isClientLoginRequired()) {
-    echo sprintf(__('If this is your first time contacting us or you\'ve lost the ticket number, please %s open a new ticket %s'),
-        '<a href="open.php">', '</a>');
+    echo sprintf(__('If this is your first time contacting us, %s please visit our website %s'),
+        '<a href="https://www.valuepointsystems.com/cloud/">', '</a>');
 } ?>
 </p>

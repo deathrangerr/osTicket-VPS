@@ -66,5 +66,5 @@ $ost->setWarning($sysnotice);
 $nav = new AdminNav($thisstaff);
 
 //Page title.
-$ost->setPageTitle(__('VlauePoint Cloud Transformation :: Admin Control Panel'));
+$ost->setPageTitle(__('ValuePoint Cloud Transformation :: Admin Control Panel'));
 ?>
